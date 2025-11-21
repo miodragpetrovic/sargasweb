@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useEffect, useRef } from "react";
+import Image from "next/image";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import {
@@ -424,48 +425,76 @@ export function HomeClient() {
           </div>
 
           <div className="grid gap-6 md:grid-cols-3">
-            <div className="flex flex-col rounded-2xl border border-white/10 bg-slate-900 p-4">
-              <div className="h-32 rounded-xl bg-gradient-to-br from-sky-500/60 via-slate-700 to-slate-900" />
-              <div className="mt-4">
-                <p className="flex items-center gap-2 text-sm font-semibold text-slate-50">
-                  <Target className="h-4 w-4 text-sky-400" />
-                  B2B Industrie-Webseite
-                </p>
-                <p className="mt-1 text-xs text-slate-300 sm:text-sm">
-                  Relaunch mit klarer Produktstruktur, mehr Anfragen über
-                  Kontaktformulare und bessere Auffindbarkeit.
-                </p>
-              </div>
-            </div>
+  {/* Karte 1 */}
+  <div className="flex flex-col rounded-2xl border border-white/10 bg-slate-900 p-4">
+    <div className="relative h-32 w-full overflow-hidden rounded-xl bg-slate-900">
+      <Image
+        src="/img/ivan-travel-gmbh.png" // ista slika za sve 3, posle menjaš
+        alt="Projektbeispiel – Referenz"
+        fill
+        className="object-cover"
+        sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw"
+      />
+    </div>
+    <div className="mt-4">
+      <p className="flex items-center gap-2 text-sm font-semibold text-slate-50">
+        <Target className="h-4 w-4 text-sky-400" />
+        B2B Industrie-Webseite
+      </p>
+      <p className="mt-1 text-xs text-slate-300 sm:text-sm">
+        Relaunch mit klarer Produktstruktur, mehr Anfragen über
+        Kontaktformulare und bessere Auffindbarkeit.
+      </p>
+    </div>
+  </div>
 
-            <div className="flex flex-col rounded-2xl border border-white/10 bg-slate-900 p-4">
-              <div className="h-32 rounded-xl bg-gradient-to-br from-violet-500/60 via-slate-700 to-slate-900" />
-              <div className="mt-4">
-                <p className="flex items-center gap-2 text-sm font-semibold text-slate-50">
-                  <Code2 className="h-4 w-4 text-sky-400" />
-                  SaaS Webanwendung
-                </p>
-                <p className="mt-1 text-xs text-slate-300 sm:text-sm">
-                  Dashboard für Kunden-Management mit Login-Bereich, Rollen und
-                  API-Anbindung.
-                </p>
-              </div>
-            </div>
+  {/* Karte 2 */}
+  <div className="flex flex-col rounded-2xl border border-white/10 bg-slate-900 p-4">
+    <div className="relative h-32 w-full overflow-hidden rounded-xl bg-slate-900">
+      <Image
+        src="/img/ivan-travel-gmbh.png"
+        alt="Projektbeispiel – Referenz"
+        fill
+        className="object-cover"
+        sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw"
+      />
+    </div>
+    <div className="mt-4">
+      <p className="flex items-center gap-2 text-sm font-semibold text-slate-50">
+        <Code2 className="h-4 w-4 text-sky-400" />
+        SaaS Webanwendung
+      </p>
+      <p className="mt-1 text-xs text-slate-300 sm:text-sm">
+        Dashboard für Kunden-Management mit Login-Bereich, Rollen und
+        API-Anbindung.
+      </p>
+    </div>
+  </div>
 
-            <div className="flex flex-col rounded-2xl border border-white/10 bg-slate-900 p-4">
-              <div className="h-32 rounded-xl bg-gradient-to-br from-emerald-500/60 via-slate-700 to-slate-900" />
-              <div className="mt-4">
-                <p className="flex items-center gap-2 text-sm font-semibold text-slate-50">
-                  <ShoppingBag className="h-4 w-4 text-sky-400" />
-                  Fashion Online-Shop
-                </p>
-                <p className="mt-1 text-xs text-slate-300 sm:text-sm">
-                  Conversion-orientiertes Design, optimierter Checkout und
-                  Integration von Zahlungs- &amp; Versanddienstleistern.
-                </p>
-              </div>
-            </div>
-          </div>
+  {/* Karte 3 */}
+  <div className="flex flex-col rounded-2xl border border-white/10 bg-slate-900 p-4">
+    <div className="relative h-32 w-full overflow-hidden rounded-xl bg-slate-900">
+      <Image
+        src="/img/ivan-travel-gmbh.png"
+        alt="Projektbeispiel – Referenz"
+        fill
+        className="object-cover"
+        sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw"
+      />
+    </div>
+    <div className="mt-4">
+      <p className="flex items-center gap-2 text-sm font-semibold text-slate-50">
+        <ShoppingBag className="h-4 w-4 text-sky-400" />
+        Fashion Online-Shop
+      </p>
+      <p className="mt-1 text-xs text-slate-300 sm:text-sm">
+        Conversion-orientiertes Design, optimierter Checkout und
+        Integration von Zahlungs- &amp; Versanddienstleistern.
+      </p>
+    </div>
+  </div>
+</div>
+
         </div>
       </section>
 

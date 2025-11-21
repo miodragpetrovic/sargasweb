@@ -40,11 +40,6 @@ export default function AGBPage() {
             Konzeption, Gestaltung, Entwicklung und Betreuung von Webseiten,
             Webanwendungen und Online-Shops.
           </p>
-          <p className="mt-2 text-xs text-slate-400">
-            Hinweis: Dieser Text ist ein Muster und ersetzt keine individuelle
-            Rechtsberatung. Wir empfehlen eine Prüfung durch eine
-            Rechtsanwältin/einen Rechtsanwalt nach Schweizer Recht.
-          </p>
         </header>
 
         <div className="space-y-8 text-sm leading-relaxed text-slate-200 md:text-base">

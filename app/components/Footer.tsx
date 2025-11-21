@@ -3,9 +3,6 @@ import Link from "next/link";
 const mainNavLinks = [
   { href: "/", label: "Startseite" },
   { href: "/leistungen", label: "Leistungen" },
-  { href: "/webseiten", label: "Webseiten" },
-  { href: "/webanwendungen", label: "Webanwendungen" },
-  { href: "/online-shop", label: "Online-Shops" },
   { href: "/referenzen", label: "Referenzen" },
   { href: "/kontakt", label: "Kontakt" },
 ];

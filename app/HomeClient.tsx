@@ -127,7 +127,7 @@ export function HomeClient() {
 
           <h1
             ref={heroTitleRef}
-            className="mt-5 max-w-3xl text-3xl font-semibold leading-tight tracking-tight text-slate-50 sm:text-4xl lg:text-5xl"
+            className="mt-5 max-w-4xl text-3xl font-semibold leading-tight tracking-tight text-slate-50 sm:text-4xl lg:text-5xl"
           >
             Wir entwickeln Webseiten, Webanwendungen &amp; Online-Shops,
             <span className="block text-sky-400">

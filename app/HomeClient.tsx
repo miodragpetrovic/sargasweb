@@ -425,75 +425,76 @@ export function HomeClient() {
           </div>
 
           <div className="grid gap-6 md:grid-cols-3">
-  {/* Karte 1 */}
-  <div className="flex flex-col rounded-2xl border border-white/10 bg-slate-900 p-4">
-    <div className="relative h-32 w-full overflow-hidden rounded-xl bg-slate-900">
-      <Image
-        src="/img/ivan-travel-gmbh.png" // ista slika za sve 3, posle menjaš
-        alt="Projektbeispiel – Referenz"
-        fill
-        className="object-cover"
-        sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw"
-      />
-    </div>
-    <div className="mt-4">
-      <p className="flex items-center gap-2 text-sm font-semibold text-slate-50">
-        <Target className="h-4 w-4 text-sky-400" />
-        B2B Industrie-Webseite
-      </p>
-      <p className="mt-1 text-xs text-slate-300 sm:text-sm">
-        Relaunch mit klarer Produktstruktur, mehr Anfragen über
-        Kontaktformulare und bessere Auffindbarkeit.
-      </p>
-    </div>
-  </div>
+          {/* Karte 1 */}
+          <div className="flex flex-col rounded-2xl border border-white/10 bg-slate-900 p-4">
+            <div className="relative h-32 w-full overflow-hidden rounded-xl bg-slate-900">
+              <Image
+                src="/img/ivan-travel-gmbh.png" // ista slika za sve 3, posle menjaš
+                alt="Projektbeispiel – Referenz"
+                fill
+                className="object-cover"
+                sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw"
+              />
+            </div>
+            <div className="mt-4">
+              <p className="flex items-center gap-2 text-sm font-semibold text-slate-50">
+                <Target className="h-4 w-4 text-sky-400" />
+                OnePage-Webseite für Ivan Vtravel GmbH
+              </p>
+              <p className="mt-1 text-xs text-slate-300 sm:text-sm">
+                Individuell entwickelte OnePage-Seite mit PHP, JavaScript und Bootstrap –
+                zweisprachig auf Deutsch und Englisch für eine klare Präsentation der Reiseangebote.
+              </p>
+            </div>
+          </div>
 
-  {/* Karte 2 */}
-  <div className="flex flex-col rounded-2xl border border-white/10 bg-slate-900 p-4">
-    <div className="relative h-32 w-full overflow-hidden rounded-xl bg-slate-900">
-      <Image
-        src="/img/ivan-travel-gmbh.png"
-        alt="Projektbeispiel – Referenz"
-        fill
-        className="object-cover"
-        sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw"
-      />
-    </div>
-    <div className="mt-4">
-      <p className="flex items-center gap-2 text-sm font-semibold text-slate-50">
-        <Code2 className="h-4 w-4 text-sky-400" />
-        SaaS Webanwendung
-      </p>
-      <p className="mt-1 text-xs text-slate-300 sm:text-sm">
-        Dashboard für Kunden-Management mit Login-Bereich, Rollen und
-        API-Anbindung.
-      </p>
-    </div>
-  </div>
+          {/* Karte 2 */}
+          <div className="flex flex-col rounded-2xl border border-white/10 bg-slate-900 p-4">
+            <div className="relative h-32 w-full overflow-hidden rounded-xl bg-slate-900">
+              <Image
+                src="/img/annavi.png"
+                alt="Projektbeispiel – Referenz"
+                fill
+                className="object-cover"
+                sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw"
+              />
+            </div>
+            <div className="mt-4">
+              <p className="flex items-center gap-2 text-sm font-semibold text-slate-50">
+                <Code2 className="h-4 w-4 text-sky-400" />
+                Annavi Online-Shop (WordPress)
+              </p>
+              <p className="mt-1 text-xs text-slate-300 sm:text-sm">
+                Individueller WooCommerce-Shop für Annavi mit klarer Produktstruktur,
+                mobil-optimiertem Checkout und einfacher Pflege im WordPress-Backend.
+              </p>
+            </div>
+          </div>
 
-  {/* Karte 3 */}
-  <div className="flex flex-col rounded-2xl border border-white/10 bg-slate-900 p-4">
-    <div className="relative h-32 w-full overflow-hidden rounded-xl bg-slate-900">
-      <Image
-        src="/img/ivan-travel-gmbh.png"
-        alt="Projektbeispiel – Referenz"
-        fill
-        className="object-cover"
-        sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw"
-      />
-    </div>
-    <div className="mt-4">
-      <p className="flex items-center gap-2 text-sm font-semibold text-slate-50">
-        <ShoppingBag className="h-4 w-4 text-sky-400" />
-        Fashion Online-Shop
-      </p>
-      <p className="mt-1 text-xs text-slate-300 sm:text-sm">
-        Conversion-orientiertes Design, optimierter Checkout und
-        Integration von Zahlungs- &amp; Versanddienstleistern.
-      </p>
-    </div>
-  </div>
-</div>
+          {/* Karte 3 */}
+          <div className="flex flex-col rounded-2xl border border-white/10 bg-slate-900 p-4">
+            <div className="relative h-32 w-full overflow-hidden rounded-xl bg-slate-900">
+              <Image
+                src="/img/hausarztpraxis.png"
+                alt="Projektbeispiel – Referenz"
+                fill
+                className="object-cover"
+                sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw"
+              />
+            </div>
+            <div className="mt-4">
+              <p className="flex items-center gap-2 text-sm font-semibold text-slate-50">
+                <ShoppingBag className="h-4 w-4 text-sky-400" />
+                Hausarztpraxis Au-Wädenswil
+              </p>
+              <p className="mt-1 text-xs text-slate-300 sm:text-sm">
+                Moderne Praxis-Website für eine Hausarztpraxis in Au-Wädenswil – klar
+                strukturierte Informationen für Patient:innen, mobil optimiert und
+                umgesetzt mit PHP, JavaScript &amp; Bootstrap.
+              </p>
+            </div>
+          </div>
+        </div>
 
         </div>
       </section>

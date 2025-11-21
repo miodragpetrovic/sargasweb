@@ -61,7 +61,7 @@ export default function RootLayout({
       >
         <MainNav />
         {/* veći padding da sadržaj ne ide ispod navbara */}
-        <main className="min-h-screen pt-24 md:pt-28">
+        <main className="min-h-screen">
           {children}
         </main>
         <Footer />

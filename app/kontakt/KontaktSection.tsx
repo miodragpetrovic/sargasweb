@@ -278,10 +278,10 @@ export function KontaktSection() {
                     <option value="" disabled>
                       Bitte auswählen
                     </option>
-                    <option value="under3k">bis 3.000 €</option>
-                    <option value="3k-8k">3.000 – 8.000 €</option>
-                    <option value="8k-15k">8.000 – 15.000 €</option>
-                    <option value="15k-plus">über 15.000 €</option>
+                    <option value="under3k">bis 3.000 CHF</option>
+                    <option value="3k-8k">3.000 – 8.000 CHF</option>
+                    <option value="8k-15k">8.000 – 15.000 CHF</option>
+                    <option value="15k-plus">über 15.000 CHF</option>
                     <option value="notsure">noch nicht sicher</option>
                   </select>
                 </div>

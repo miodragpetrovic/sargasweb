@@ -44,11 +44,11 @@ export function MainNav() {
         {/* Logo / brand */}
         <Link href="/" className="flex items-center gap-2">
           <div className="flex h-9 w-9 items-center justify-center rounded-2xl border border-white/20 bg-gradient-to-br from-sky-500 to-violet-500 text-xs font-semibold tracking-tight text-white shadow-lg">
-            N
+            SW
           </div>
           <div className="flex flex-col leading-tight">
             <span className="text-sm font-semibold uppercase tracking-[0.18em] text-slate-200">
-              Nova Media
+              SargasWeb
             </span>
             <span className="text-xs text-slate-400">
               Webseiten · Webanwendungen · Online-Shops

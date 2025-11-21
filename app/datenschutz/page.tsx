@@ -38,13 +38,6 @@ export default function DatenschutzPage() {
             Personendaten verarbeitet, wenn Sie unsere Website besuchen, mit uns
             in Kontakt treten oder unsere Leistungen in Anspruch nehmen.
           </p>
-          <p className="mt-2 text-xs text-slate-400">
-            Hinweis: Diese Datenschutzerklärung ist ein allgemeines Muster und
-            ersetzt keine individuelle Rechtsberatung. Wir empfehlen eine
-            Überprüfung durch eine Rechtsanwältin/einen Rechtsanwalt nach
-            schweizerischem Recht (revDSG) und – falls relevant – der
-            EU-Datenschutz-Grundverordnung (DSGVO).
-          </p>
         </header>
 
         <div className="space-y-8 text-sm leading-relaxed text-slate-200 md:text-base">

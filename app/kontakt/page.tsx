@@ -42,22 +42,22 @@ export const metadata: Metadata = {
 
 // ⬅️ Ovdje OBAVEZNO zamijeni domen sa stvarnim
 const CONTACT_JSON_LD = {
-  "@context": "https://www.sargasweb.ch",
+  "@context": "https://schema.org",
   "@type": "ContactPage",
   name:
     "Kontakt – SargasWeb | Webagentur für moderne Webseiten, Webanwendungen & Online-Shops",
   description:
     "Kontaktseite von SargasWeb, Ihrer Webagentur für Webseiten, Webanwendungen und Online-Shops.",
-  url: "https://www.sargasweb.ch/kontakt",
+  url: "https://www.example.com/kontakt",
   mainEntity: {
     "@type": "Organization",
     name: "SargasWeb",
-    url: "https://www.sargasweb.ch",
-    logo: "https://www.sargasweb.ch/logo.png",
+    url: "https://www.example.com",
+    logo: "https://www.example.com/logo.png",
     contactPoint: {
       "@type": "ContactPoint",
       contactType: "customer support",
-      email: "info@sargasweb.ch",
+      email: "kontakt@ihre-agentur.de",
       availableLanguage: ["de"],
     },
   },

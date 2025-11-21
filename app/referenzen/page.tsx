@@ -4,9 +4,9 @@ import { ReferenzenClient } from "./ReferenzenClient";
 
 export const metadata: Metadata = {
   title:
-    "Referenzen – Nova Media | Ausgewählte Webseiten, Webanwendungen & Online-Shops",
+    "Referenzen – SargasWeb | Ausgewählte Webseiten, Webanwendungen & Online-Shops",
   description:
-    "Ein Einblick in ausgewählte Projekte von Nova Media: moderne Webseiten, individuelle Webanwendungen und performante Online-Shops für Unternehmen.",
+    "Ein Einblick in ausgewählte Projekte von SargasWeb: moderne Webseiten, individuelle Webanwendungen und performante Online-Shops für Unternehmen.",
   keywords: [
     "Webagentur Referenzen",
     "Webdesign Portfolio",
@@ -31,9 +31,9 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title:
-      "Referenzen – Nova Media | Ausgewählte Webseiten, Webanwendungen & Online-Shops",
+      "Referenzen – SargasWeb | Ausgewählte Webseiten, Webanwendungen & Online-Shops",
     description:
-      "Entdecken Sie Referenzen von Nova Media – digitale Projekte für B2B, SaaS, E-Commerce und mehr.",
+      "Entdecken Sie Referenzen von SargasWeb – digitale Projekte für B2B, SaaS, E-Commerce und mehr.",
     url: "/referenzen",
     type: "website",
   },
@@ -44,9 +44,9 @@ const REFERENZEN_JSON_LD = {
   "@context": "https://schema.org",
   "@type": "CollectionPage",
   name:
-    "Referenzen – Nova Media | Ausgewählte Webseiten, Webanwendungen & Online-Shops",
+    "Referenzen – SargasWeb | Ausgewählte Webseiten, Webanwendungen & Online-Shops",
   description:
-    "Übersicht ausgewählter Referenzen und Projekte von Nova Media.",
+    "Übersicht ausgewählter Referenzen und Projekte von SargasWeb.",
   url: "https://www.example.com/referenzen",
   hasPart: [
     {

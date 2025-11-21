@@ -4,9 +4,9 @@ import { LeistungenClient } from "./LeistungenClient";
 
 export const metadata: Metadata = {
   title:
-    "Leistungen – Nova Media | Webseiten, Webanwendungen & Online-Shops",
+    "Leistungen – SargasWeb | Webseiten, Webanwendungen & Online-Shops",
   description:
-    "Überblick über die Leistungen von Nova Media: moderne Webseiten, individuelle Webanwendungen und performante Online-Shops für Unternehmen.",
+    "Überblick über die Leistungen von SargasWeb: moderne Webseiten, individuelle Webanwendungen und performante Online-Shops für Unternehmen.",
   keywords: [
     "Leistungen Webagentur",
     "Webseiten Entwicklung",
@@ -31,9 +31,9 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title:
-      "Leistungen – Nova Media | Webseiten, Webanwendungen & Online-Shops",
+      "Leistungen – SargasWeb | Webseiten, Webanwendungen & Online-Shops",
     description:
-      "Entdecken Sie die Leistungen von Nova Media – von Corporate Webseiten über individuelle Webanwendungen bis zu performanten Online-Shops.",
+      "Entdecken Sie die Leistungen von SargasWeb – von Corporate Webseiten über individuelle Webanwendungen bis zu performanten Online-Shops.",
     url: "/leistungen",
     type: "website",
   },
@@ -44,9 +44,9 @@ const LEISTUNGEN_JSON_LD = {
   "@context": "https://schema.org",
   "@type": "WebPage",
   name:
-    "Leistungen – Nova Media | Webseiten, Webanwendungen & Online-Shops",
+    "Leistungen – SargasWeb | Webseiten, Webanwendungen & Online-Shops",
   description:
-    "Überblick über die Leistungen von Nova Media: moderne Webseiten, individuelle Webanwendungen und performante Online-Shops.",
+    "Überblick über die Leistungen von SargasWeb: moderne Webseiten, individuelle Webanwendungen und performante Online-Shops.",
   url: "https://www.example.com/leistungen",
   primaryImageOfPage: "https://www.example.com/og-image.png",
   about: [
@@ -56,7 +56,7 @@ const LEISTUNGEN_JSON_LD = {
       serviceType: "Corporate Websites & Landingpages",
       provider: {
         "@type": "Organization",
-        name: "Nova Media",
+        name: "SargasWeb",
       },
     },
     {
@@ -65,7 +65,7 @@ const LEISTUNGEN_JSON_LD = {
       serviceType: "Individuelle Webapplikationen & Dashboards",
       provider: {
         "@type": "Organization",
-        name: "Nova Media",
+        name: "SargasWeb",
       },
     },
     {
@@ -74,7 +74,7 @@ const LEISTUNGEN_JSON_LD = {
       serviceType: "E-Commerce & Online-Shops",
       provider: {
         "@type": "Organization",
-        name: "Nova Media",
+        name: "SargasWeb",
       },
     },
   ],

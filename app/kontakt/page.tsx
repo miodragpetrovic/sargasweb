@@ -4,9 +4,9 @@ import { KontaktSection } from "./KontaktSection";
 
 export const metadata: Metadata = {
   title:
-    "Kontakt – Nova Media | Webagentur für moderne Webseiten, Webanwendungen & Online-Shops",
+    "Kontakt – SargasWeb | Webagentur für moderne Webseiten, Webanwendungen & Online-Shops",
   description:
-    "Nehmen Sie Kontakt mit Nova Media auf. Wir planen, designen und entwickeln moderne Webseiten, Webanwendungen und Online-Shops für Unternehmen in Deutschland.",
+    "Nehmen Sie Kontakt mit SargasWeb auf. Wir planen, designen und entwickeln moderne Webseiten, Webanwendungen und Online-Shops für Unternehmen in Deutschland.",
   keywords: [
     "Webagentur Kontakt",
     "Webseite erstellen lassen",
@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     "Online-Shop Agentur",
     "Webanwendung Entwicklung",
     "Next.js Agentur",
-    "Nova Media Kontakt",
+    "SargasWeb Kontakt",
   ],
   alternates: {
     canonical: "/kontakt",
@@ -32,9 +32,9 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title:
-      "Kontakt – Nova Media | Webagentur für moderne Webseiten, Webanwendungen & Online-Shops",
+      "Kontakt – SargasWeb | Webagentur für moderne Webseiten, Webanwendungen & Online-Shops",
     description:
-      "Jetzt Kontakt zu Nova Media aufnehmen und Ihr nächstes Webprojekt starten – von der Unternehmenswebseite bis zur individuellen Webanwendung.",
+      "Jetzt Kontakt zu SargasWeb aufnehmen und Ihr nächstes Webprojekt starten – von der Unternehmenswebseite bis zur individuellen Webanwendung.",
     url: "/kontakt",
     type: "website",
   },
@@ -45,13 +45,13 @@ const CONTACT_JSON_LD = {
   "@context": "https://schema.org",
   "@type": "ContactPage",
   name:
-    "Kontakt – Nova Media | Webagentur für moderne Webseiten, Webanwendungen & Online-Shops",
+    "Kontakt – SargasWeb | Webagentur für moderne Webseiten, Webanwendungen & Online-Shops",
   description:
-    "Kontaktseite von Nova Media, Ihrer Webagentur für Webseiten, Webanwendungen und Online-Shops.",
+    "Kontaktseite von SargasWeb, Ihrer Webagentur für Webseiten, Webanwendungen und Online-Shops.",
   url: "https://www.example.com/kontakt",
   mainEntity: {
     "@type": "Organization",
-    name: "Nova Media",
+    name: "SargasWeb",
     url: "https://www.example.com",
     logo: "https://www.example.com/logo.png",
     contactPoint: {

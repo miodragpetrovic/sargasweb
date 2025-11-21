@@ -3,9 +3,9 @@ import { HomeClient } from "./HomeClient";
 
 export const metadata: Metadata = {
   title:
-    "Nova Media – Moderne Webseiten, Webanwendungen & Online-Shops für Unternehmen",
+    "SargasWeb – Moderne Webseiten, Webanwendungen & Online-Shops für Unternehmen",
   description:
-    "Nova Media ist Ihre Webagentur für moderne Webseiten, individuelle Webanwendungen und performante Online-Shops auf Basis von Next.js.",
+    "SargasWeb ist Ihre Webagentur für moderne Webseiten, individuelle Webanwendungen und performante Online-Shops auf Basis von Next.js.",
   keywords: [
     "Webagentur",
     "Webdesign Agentur",
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title:
-      "Nova Media – Moderne Webseiten, Webanwendungen & Online-Shops für Unternehmen",
+      "SargasWeb – Moderne Webseiten, Webanwendungen & Online-Shops für Unternehmen",
     description:
       "Wir entwickeln performante Webseiten, Webanwendungen und Online-Shops mit klarem Fokus auf Conversion und Branding.",
     url: "/",

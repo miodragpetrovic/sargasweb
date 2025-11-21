@@ -16,14 +16,14 @@ const geistMono = Geist_Mono({
 
 // 🔧 GLOBAL SEO + domena
 export const metadata: Metadata = {
-  metadataBase: new URL("https://sargasweb.ch"),
+  metadataBase: new URL("https://www.sargasweb.ch"),
   title: {
     default:
       "SargasWeb – Moderne Webseiten, Webanwendungen & Online-Shops",
     template: "%s | SargasWeb",
   },
   description:
-    "Nova Media ist Ihre Webagentur für moderne Webseiten, individuelle Webanwendungen und performante Online-Shops auf Basis von Next.js.",
+    "SargasWeb ist Ihre Webagentur für moderne Webseiten, individuelle Webanwendungen und performante Online-Shops auf Basis von Next.js.",
   alternates: {
     canonical: "/",
   },
@@ -40,12 +40,12 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title:
-      "Nova Media – Moderne Webseiten, Webanwendungen & Online-Shops",
+      "SargasWeb – Moderne Webseiten, Webanwendungen & Online-Shops",
     description:
       "Wir entwickeln performante Webseiten, Webanwendungen und Online-Shops mit klarem Fokus auf Conversion und Branding.",
     url: "/",
     type: "website",
-    siteName: "Nova Media",
+    siteName: "SargasWeb",
   },
 };
 

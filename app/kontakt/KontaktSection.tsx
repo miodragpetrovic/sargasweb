@@ -189,7 +189,7 @@ export function KontaktSection() {
                     required
                     autoComplete="email"
                     className="mt-2 w-full rounded-xl border border-white/10 bg-slate-900 px-3 py-2.5 text-sm text-slate-50 outline-none ring-0 transition focus:border-sky-500 focus:ring-2 focus:ring-sky-500/40"
-                    placeholder="name@unternehmen.de"
+                    placeholder="name@unternehmen.ch"
                   />
                 </div>
               </div>
@@ -226,7 +226,7 @@ export function KontaktSection() {
                     name="website"
                     type="url"
                     className="mt-2 w-full rounded-xl border border-white/10 bg-slate-900 px-3 py-2.5 text-sm text-slate-50 outline-none ring-0 transition focus:border-sky-500 focus:ring-2 focus:ring-sky-500/40"
-                    placeholder="https://www.ihre-website.de"
+                    placeholder="https://www.ihre-website.ch"
                   />
                 </div>
               </div>

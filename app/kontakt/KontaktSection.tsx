@@ -109,7 +109,7 @@ export function KontaktSection() {
   return (
     <section
       ref={rootRef}
-      className="bg-slate-950 pb-16 pt-4 md:pb-20 md:pt-6"
+      className="bg-slate-950 pb-16 pt-4 md:pb-40 md:pt-28 pt-22"
     >
       <div className="mx-auto max-w-6xl px-4">
         {/* HEADER BLOK */}

@@ -156,7 +156,7 @@ export function ReferenzenClient() {
   }, []);
 
   return (
-    <div ref={pageRef} className="bg-slate-950 text-slate-50">
+    <div ref={pageRef} className="bg-slate-950 text-slate-50 pt-5">
       {/* HERO */}
       <section
         ref={heroRef}

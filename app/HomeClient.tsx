@@ -107,7 +107,7 @@ export function HomeClient() {
       {/* HERO */}
       <section
         ref={heroRootRef}
-        className="relative overflow-hidden bg-gradient-to-b from-slate-950 via-slate-950 to-slate-900"
+        className="relative overflow-hidden bg-gradient-to-b from-slate-950 via-slate-950 to-slate-900 pt-5"
       >
         {/* blur pozadina */}
         <div className="pointer-events-none absolute inset-0 -z-10">

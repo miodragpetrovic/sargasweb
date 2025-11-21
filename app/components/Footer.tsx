@@ -28,11 +28,11 @@ export function Footer() {
           <div className="md:col-span-2">
             <div className="flex items-center gap-2">
               <div className="flex h-9 w-9 items-center justify-center rounded-2xl border border-white/20 bg-gradient-to-br from-sky-500 to-violet-500 text-xs font-semibold tracking-tight text-white shadow-lg">
-                N
+                SW
               </div>
               <div className="flex flex-col leading-tight">
                 <span className="text-sm font-semibold uppercase tracking-[0.18em] text-slate-200">
-                  Nova Media
+                  SargasWeb
                 </span>
                 <span className="text-xs text-slate-400">
                   Webseiten · Webanwendungen · Online-Shops
@@ -72,17 +72,19 @@ export function Footer() {
               Kontakt
             </h3>
             <div className="mt-3 space-y-2 text-sm text-slate-300">
-              <p>Deutschland · Remote</p>
+              <p>Grossmatt 2</p>
+              <p>8910 Affoltern am Albis</p>
+              CH-Schweiz
               <p>
                 E-Mail:{" "}
                 <a
-                  href="mailto:kontakt@ihre-agentur.de"
+                  href="mailto:info@sargasweb.ch"
                   className="text-sky-400 hover:text-sky-300"
                 >
-                  kontakt@ihre-agentur.de
+                  info@sargasweb.ch
                 </a>
               </p>
-              <p>Mo–Fr · 09:00 – 17:00 Uhr</p>
+              <p>Mo–Fr · 08:00 – 17:00 Uhr</p>
             </div>
           </div>
         </div>
@@ -90,7 +92,7 @@ export function Footer() {
         {/* Donji dio */}
         <div className="mt-8 border-t border-white/10 pt-6 text-xs text-slate-400 md:flex md.items-center md:justify-between">
           <p className="mb-3 md:mb-0">
-            © {year} Nova Media. Alle Rechte vorbehalten.
+            © {year} SargasWeb. Alle Rechte vorbehalten.
           </p>
 
           <div className="flex flex-wrap gap-4">

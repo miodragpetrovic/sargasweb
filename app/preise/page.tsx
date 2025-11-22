@@ -133,7 +133,7 @@ export default function PreisePage() {
               Startups, die Wert auf Qualität und Budgetkontrolle legen.
             </p>
             <p className="mt-3 text-xs text-slate-400">
-              Alle Preise in CHF, exkl. MwSt. Individuelle Wünsche und
+              Individuelle Wünsche und
               komplexere Projekte kalkulieren wir gerne in einem persönlichen
               Angebot.
             </p>

@@ -23,19 +23,19 @@ export function Footer() {
         <div className="grid gap-8 md:grid-cols-4">
           {/* Brand / opis */}
           <div className="md:col-span-2">
-            <div className="flex items-center gap-2">
-              <div className="flex h-9 w-9 items-center justify-center rounded-2xl border border-white/20 bg-gradient-to-br from-sky-500 to-violet-500 text-xs font-semibold tracking-tight text-white shadow-lg">
+            <Link href="/" className="inline-flex items-center gap-3">
+              <div className="flex h-9 w-9 items-center justify-center rounded-full bg-gradient-to-br from-sky-500 to-violet-500 text-[10px] font-semibold tracking-[0.18em] text-white shadow-lg">
                 SW
               </div>
               <div className="flex flex-col leading-tight">
-                <span className="text-sm font-semibold uppercase tracking-[0.18em] text-slate-200">
-                  SargasWeb
+                <span className="text-sm font-semibold uppercase tracking-[0.18em] text-slate-100">
+                  SARGASWEB
                 </span>
                 <span className="text-xs text-slate-400">
                   Webseiten · Webanwendungen · Online-Shops
                 </span>
               </div>
-            </div>
+            </Link>
 
             <p className="mt-4 max-w-md text-sm text-slate-300">
               Digitale Lösungen mit Fokus auf Performance, Nutzererlebnis und
@@ -71,7 +71,7 @@ export function Footer() {
             <div className="mt-3 space-y-2 text-sm text-slate-300">
               <p>Grossmatt 2</p>
               <p>8910 Affoltern am Albis</p>
-              CH-Schweiz
+              <p>CH-Schweiz</p>
               <p>
                 E-Mail:{" "}
                 <a
@@ -87,7 +87,7 @@ export function Footer() {
         </div>
 
         {/* Donji dio */}
-        <div className="mt-8 border-t border-white/10 pt-6 text-xs text-slate-400 md:flex md.items-center md:justify-between">
+        <div className="mt-8 border-t border-white/10 pt-6 text-xs text-slate-400 md:flex md:items-center md:justify-between">
           <p className="mb-3 md:mb-0">
             © {year} SargasWeb. Alle Rechte vorbehalten.
           </p>

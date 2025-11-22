@@ -7,7 +7,7 @@ import { useState, useEffect } from "react";
 const navLinks = [
   { href: "/", label: "Startseite" },
   { href: "/leistungen", label: "Leistungen" },
-  { href: "/webentwicklung", label: "Webentwicklung" },
+  { href: "/preise", label: "Preise" },
   { href: "/referenzen", label: "Referenzen" },
   { href: "/kontakt", label: "Kontakt" },
 ];
@@ -43,22 +43,25 @@ export function MainNav() {
     >
       <nav className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3 md:py-4">
         {/* Logo / brand – kao na slici */}
-        <Link href="/" className="flex items-center gap-3">
+        <Link
+          href="/"
+          className="flex items-center gap-3 flex-shrink-0"
+        >
           <div className="flex h-9 w-9 items-center justify-center rounded-full bg-gradient-to-br from-sky-500 to-violet-500 text-[10px] font-semibold tracking-[0.18em] text-white shadow-lg">
             SW
           </div>
           <div className="flex flex-col leading-tight">
-            <span className="text-sm font-semibold uppercase tracking-[0.18em] text-slate-100">
+            <span className="text-sm font-semibold uppercase tracking-[0.18em] text-slate-100 whitespace-nowrap">
               SARGASWEB
             </span>
-            <span className="text-xs text-slate-400">
+            <span className="text-xs text-slate-400 whitespace-nowrap">
               Webseiten · Webanwendungen · Online-Shops
             </span>
           </div>
         </Link>
 
-        {/* Desktop nav */}
-        <div className="hidden items-center gap-8 md:flex">
+        {/* Desktop nav – samo od lg nadalje */}
+        <div className="hidden items-center gap-8 lg:flex">
           <ul className="flex items-center gap-4 lg:gap-6 text-sm">
             {navLinks.map((link) => {
               const isActive =
@@ -96,12 +99,12 @@ export function MainNav() {
           </Link>
         </div>
 
-        {/* Mobile toggle */}
+        {/* Mobile toggle – prikazuje se do lg breakpointa */}
         <button
           type="button"
           aria-label="Menü öffnen"
           onClick={() => setIsOpen((prev) => !prev)}
-          className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-white/20 bg-slate-900/70 text-slate-100 hover:bg-slate-800 md:hidden"
+          className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-white/20 bg-slate-900/70 text-slate-100 hover:bg-slate-800 lg:hidden"
         >
           <div className="flex flex-col gap-[5px]">
             <span
@@ -118,9 +121,9 @@ export function MainNav() {
         </button>
       </nav>
 
-      {/* Mobile meni */}
+      {/* Mobile meni – isto samo do lg */}
       <div
-        className={`md:hidden transition-[max-height,opacity] duration-300 ease-out ${
+        className={`lg:hidden transition-[max-height,opacity] duration-300 ease-out ${
           isOpen ? "max-h-96 opacity-100" : "max-h-0 opacity-0"
         } overflow-hidden`}
       >

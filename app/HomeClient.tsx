@@ -132,7 +132,8 @@ export function HomeClient() {
                 ref={heroTitleRef}
                 className="mt-5 max-w-4xl text-3xl font-semibold leading-tight tracking-tight text-slate-50 sm:text-4xl lg:text-5xl"
               >
-                Wir entwickeln Webseiten, Webanwendungen &amp; Online-Shops,
+                Wir entwickeln Webseiten, Webanwendungen &{" "}
+                <span className="whitespace-nowrap">Online-Shops,</span>
                 <span className="block text-sky-400">
                   die messbare Ergebnisse liefern.
                 </span>

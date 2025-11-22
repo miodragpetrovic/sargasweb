@@ -32,6 +32,24 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "yearly",
       priority: 0.6,
     },
+    {
+      url: "https://www.sargasweb.ch/webentwicklung",
+      lastModified: new Date(),
+      changeFrequency: "yearly",
+      priority: 0.8,
+    },
+    {
+      url: "https://www.sargasweb.ch/webdesign",
+      lastModified: new Date(),
+      changeFrequency: "yearly",
+      priority: 0.8,
+    },
+    {
+      url: "https://www.sargasweb.ch/website-erstellen-lassen",
+      lastModified: new Date(),
+      changeFrequency: "yearly",
+      priority: 0.8,
+    },
     // Impressum, Datenschutz, AGB itd...
     {
       url: "https://www.sargasweb.ch/impressum",

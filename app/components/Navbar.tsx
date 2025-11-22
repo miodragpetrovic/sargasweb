@@ -41,14 +41,14 @@ export function MainNav() {
       }`}
     >
       <nav className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3 md:py-4">
-        {/* Logo / brand */}
-        <Link href="/" className="flex items-center gap-2">
-          <div className="flex h-9 w-9 items-center justify-center rounded-2xl border border-white/20 bg-gradient-to-br from-sky-500 to-violet-500 text-xs font-semibold tracking-tight text-white shadow-lg">
+        {/* Logo / brand – kao na slici */}
+        <Link href="/" className="flex items-center gap-3">
+          <div className="flex h-9 w-9 items-center justify-center rounded-full bg-gradient-to-br from-sky-500 to-violet-500 text-[10px] font-semibold tracking-[0.18em] text-white shadow-lg">
             SW
           </div>
           <div className="flex flex-col leading-tight">
-            <span className="text-sm font-semibold uppercase tracking-[0.18em] text-slate-200">
-              SargasWeb
+            <span className="text-sm font-semibold uppercase tracking-[0.18em] text-slate-100">
+              SARGASWEB
             </span>
             <span className="text-xs text-slate-400">
               Webseiten · Webanwendungen · Online-Shops

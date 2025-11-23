@@ -107,7 +107,7 @@ const projects: Project[] = [
 },
 
 {
-  id: 5,
+  id: 6,
   title: "Hausarztpraxis Au-Wädenswil – Praxiswebsite",
   type: "website",
   industry: "Gesundheit · Hausarztpraxis",

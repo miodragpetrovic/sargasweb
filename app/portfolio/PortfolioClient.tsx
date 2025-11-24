@@ -58,7 +58,7 @@ const projects: Project[] = [
       "Webanwendung für Event-Locations zur Verwaltung von Anfragen, Verfügbarkeiten und Buchungen – mit klarer Übersicht und moderner Oberfläche.",
     result:
       "Zentralisierte Verwaltung von Event-Locations & effizientere Bearbeitung von Anfragen.",
-    tags: ["Web-App", "Event-Plattform", "Sargas IT GmbH"],
+    tags: ["Web-App", "Event-Plattform", "next.js", "Tailwind CSS", "MongoDB"],
     color: "from-violet-500/60 via-slate-700 to-slate-900",
     image: "/img/event-exclusive.png", // screenshot EventExclusive
     url: "https://eventexclusive-com.vercel.app/",

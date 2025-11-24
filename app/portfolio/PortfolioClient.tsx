@@ -127,6 +127,28 @@ const projects: Project[] = [
   url: "https://hausarztpraxis-au-waedenswil.ch/",
 },
 
+{
+  id: 7,
+  title: "Arztpraxis Dr. Lazić – Praxiswebsite",
+  type: "website",
+  industry: "Gesundheit · Arztpraxis",
+  summary:
+    "Praxis-Website für die Arztpraxis Dr. Lazić, umgesetzt mit WordPress, PHP und JavaScript. Übersichtlich strukturierte Darstellung von Leistungen, Sprechzeiten, Standort und Kontaktmöglichkeiten – optimiert für mobile Endgeräte.",
+  result:
+    "Moderner und vertrauenswürdiger Online-Auftritt mit klarer Informationsstruktur und vereinfachter Kontaktaufnahme für Patient:innen.",
+  tags: [
+    "WordPress",
+    "PHP",
+    "JavaScript",
+    "Praxiswebsite",
+    "Responsive Design",
+  ],
+  color: "from-sky-500/60 via-slate-700 to-slate-900",
+  image: "/img/arztpraxis.png",
+  url: "https://praxisdrlazic.ch/",
+},
+
+
 ];
 
 const filterOptions: { value: ProjectType; label: string }[] = [

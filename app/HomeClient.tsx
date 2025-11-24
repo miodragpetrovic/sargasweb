@@ -175,10 +175,10 @@ export function HomeClient() {
                 </Link>
 
                 <Link
-                  href="/referenzen"
+                  href="/portfolio"
                   className="inline-flex items-center justify-center rounded-full border border-white/15 bg-transparent px-6 py-2.5 text-sm font-medium text-slate-100 hover:bg-white/5"
                 >
-                  Referenzen ansehen
+                  Portfolio ansehen
                 </Link>
               </div>
 

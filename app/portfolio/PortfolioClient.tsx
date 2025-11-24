@@ -148,6 +148,28 @@ const projects: Project[] = [
   url: "https://praxisdrlazic.ch/",
 },
 
+{
+  id: 8,
+  title: "Vito Automobile GmbH – Autoankauf & Fahrzeugverkauf",
+  type: "website",
+  industry: "Automobil · Autoankauf & Verkauf",
+  summary:
+    "Unternehmens-Website für Vito Automobile GmbH, umgesetzt mit WordPress, PHP und JavaScript. Inklusive individuell entwickeltem Formular für Autoankauf, Fahrzeugübersichten und Kontaktmöglichkeiten.",
+  result:
+    "Mehr qualifizierte Anfragen für den Autoankauf und eine professionelle Online-Präsenz für den Fahrzeugverkauf.",
+  tags: [
+    "WordPress",
+    "PHP",
+    "JavaScript",
+    "Autoankauf Formular",
+    "Fahrzeughandel",
+  ],
+  color: "from-amber-400/60 via-slate-700 to-slate-900",
+  image: "/img/vito-automobile.png",
+  url: "https://vito-automobile.ch/",
+},
+
+
 
 ];
 

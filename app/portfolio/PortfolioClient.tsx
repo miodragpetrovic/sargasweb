@@ -38,7 +38,7 @@ const projects: Project[] = [
   {
     id: 1,
     title: "Online-Medikamentenbestellung",
-    type: "website",
+    type: "webapp",
     industry: "Gesundheit · Apotheke",
     summary:
       "Individuelles Bestellformular für Dauermedikamente auf WordPress-Basis – inkl. dynamischen Feldern, Validierung und strukturierter Übermittlung.",

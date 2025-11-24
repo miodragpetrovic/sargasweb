@@ -169,6 +169,26 @@ const projects: Project[] = [
   url: "https://vito-automobile.ch/",
 },
 
+{
+  id: 9,
+  title: "Fahrschule Stambo – Website für Fahrschule",
+  type: "website",
+  industry: "Ausbildung · Fahrschule",
+  summary:
+    "Moderne Website für die Fahrschule Stambo, umgesetzt mit WordPress, PHP und JavaScript. Übersichtliche Darstellung von Führerscheinkategorien, Preisen, Standorten und Kontaktmöglichkeiten – inklusive Formular für Kurs- und Fahrstundenanfragen.",
+  result:
+    "Professioneller Online-Auftritt, mehr Online-Anfragen für Fahrstunden und bessere Übersicht für Fahrschüler:innen.",
+  tags: [
+    "WordPress",
+    "PHP",
+    "JavaScript",
+    "Fahrschule Website",
+    "Online-Anfragen",
+  ],
+  color: "from-indigo-500/60 via-slate-700 to-slate-900",
+  image: "/img/fahrschule-stambo.png",
+  url: "https://www.fahrschulestambo.ch/",
+},
 
 
 ];

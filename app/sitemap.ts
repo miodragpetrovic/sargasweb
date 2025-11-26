@@ -45,6 +45,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
     {
+      url: "https://www.sargasweb.ch/webdesign-zuerich",
+      lastModified: new Date(),
+      changeFrequency: "yearly",
+      priority: 0.8,
+    },
+    {
       url: "https://www.sargasweb.ch/website-erstellen-lassen",
       lastModified: new Date(),
       changeFrequency: "yearly",

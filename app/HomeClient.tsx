@@ -555,7 +555,7 @@ export function HomeClient() {
               </p>
             </div>
             <Link
-              href="/referenzen"
+              href="/portfolio"
               className="inline-flex items-center gap-2 text-sm text-sky-400 hover:text-sky-300"
             >
               Alle Projekte ansehen

@@ -558,7 +558,7 @@ export function HomeClient() {
               href="/referenzen"
               className="inline-flex items-center gap-2 text-sm text-sky-400 hover:text-sky-300"
             >
-              Alle Referenzen ansehen
+              Alle Projekte ansehen
               <ArrowRight className="h-4 w-4" />
             </Link>
           </div>

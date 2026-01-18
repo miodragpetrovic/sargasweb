@@ -79,7 +79,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: "https://www.sargasweb.ch/website-review",
       lastModified: new Date(),
       changeFrequency: "yearly",
-      priority: 0.1,
+      priority: 1,
     },
   ];
 }

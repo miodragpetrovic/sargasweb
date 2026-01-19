@@ -2,8 +2,9 @@ import Link from "next/link";
 
 const mainNavLinks = [
   { href: "/", label: "Startseite" },
+  { href: "/website-review", label: "Website Review" },
   { href: "/leistungen", label: "Leistungen" },
-  { href: "/referenzen", label: "Referenzen" },
+  { href: "/portfolio", label: "Portfolio" },
   { href: "/kontakt", label: "Kontakt" },
 ];
 

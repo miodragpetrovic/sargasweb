@@ -3,24 +3,27 @@ import Link from "next/link";
 import WebsiteReviewSection from "../website-review/website-review-section";
 
 export const metadata: Metadata = {
-  title: "Website Review (Audit) – UX, SEO & Performance Analyse | SargasWeb",
+  title:
+    "Technisches Website Audit – Performance, SEO & Shop/Web-App Review | SargasWeb",
   description:
-    "Professionelle Website Review: Wir analysieren SEO, Performance, UX, Content & Conversion. Sie erhalten einen klaren Massnahmenplan mit priorisierten Quick Wins.",
+    "Technische Website Review für die Schweiz: Performance (Core Web Vitals), technisches SEO, Tracking-Setup, Sicherheit & Stabilität für Websites, Onlineshops und Web-Apps. Mit priorisiertem Massnahmenplan.",
   alternates: {
     canonical: "/website-review",
   },
   openGraph: {
-    title: "Website Review (Audit) – UX, SEO & Performance Analyse",
+    title:
+      "Technisches Website Audit – Performance, SEO & Shop/Web-App Review",
     description:
-      "SEO, Performance, UX & Conversion Audit inkl. Massnahmenplan. Ideal für Relaunch, Optimierung oder Wachstum.",
+      "Technisches Audit für Websites, Onlineshops & Web-Apps: Core Web Vitals, technisches SEO, Crawling/Indexierung, Tracking, Sicherheit & Code-Qualität – inkl. priorisiertem Massnahmenplan.",
     url: "/website-review",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Website Review (Audit) – UX, SEO & Performance Analyse",
+    title:
+      "Technisches Website Audit – Performance, SEO & Shop/Web-App Review",
     description:
-      "SEO, Performance, UX & Conversion Audit inkl. Massnahmenplan. Ideal für Relaunch, Optimierung oder Wachstum.",
+      "Technisches Audit für Websites, Onlineshops & Web-Apps: Core Web Vitals, technisches SEO, Crawling/Indexierung, Tracking, Sicherheit & Code-Qualität – inkl. priorisiertem Massnahmenplan.",
   },
   robots: {
     index: true,
@@ -36,13 +39,13 @@ function getJsonLd() {
   const serviceSchema = {
     "@context": "https://schema.org",
     "@type": "Service",
-    name: "Website Review (Website Audit)",
+    name: "Technisches Website Audit (Website/Shop/Web-App Review)",
     provider: { "@type": "Organization", name: orgName, url: siteUrl },
     areaServed: { "@type": "Country", name: "Switzerland" },
-    serviceType: "SEO, UX & Performance Website Audit",
+    serviceType: "Technisches Website-, Shop- & Web-App Audit (Performance & SEO)",
     url: pageUrl,
     description:
-      "Analyse von SEO, Performance, UX, Content und Conversion inkl. priorisiertem Massnahmenplan.",
+      "Technische Analyse von Performance (Core Web Vitals), technischem SEO, Tracking, Sicherheit, Stabilität und Code-Qualität – inkl. priorisiertem Massnahmenplan.",
   };
 
   const faqSchema = {
@@ -51,10 +54,10 @@ function getJsonLd() {
     mainEntity: [
       {
         "@type": "Question",
-        name: "Was umfasst die Website Review?",
+        name: "Was umfasst das technische Website Audit?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "Wir prüfen SEO-Basics (Indexierung, On-Page, technische Signale), Performance (Core Web Vitals), UX/IA, Content-Qualität, Conversion-Pfade und klare Empfehlungen.",
+          text: "Wir prüfen Performance (Core Web Vitals, Ladezeiten, Asset-Optimierung), technisches SEO (Crawling, Indexierung, Canonicals, Meta/Schema, interne Verlinkung), Tracking (GA4/Events), sowie Sicherheit und Stabilität (Header, Cookies, Fehler, Redirects) – und liefern konkrete Fixes mit Prioritäten.",
         },
       },
       {
@@ -62,15 +65,15 @@ function getJsonLd() {
         name: "Wie schnell bekomme ich Ergebnisse?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "In der Regel erhalten Sie innerhalb weniger Werktage eine strukturierte Auswertung plus priorisierte Quick Wins und nächste Schritte.",
+          text: "In der Regel erhalten Sie innerhalb weniger Werktage eine strukturierte Auswertung inkl. priorisiertem Massnahmenplan (Quick Wins vs. grössere Hebel) und Empfehlungen für die Umsetzung.",
         },
       },
       {
         "@type": "Question",
-        name: "Kann ich auch eine Web-App oder einen Shop prüfen lassen?",
+        name: "Ist das Audit auch für Onlineshops und Web-Apps geeignet?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "Ja – wir auditieren klassische Webseiten, Landingpages, Shops sowie Next.js/React-Webapps. Der Fokus wird entsprechend angepasst.",
+          text: "Ja. Wir auditieren Websites, Onlineshops (z.B. Shopify/WooCommerce) und Web-Apps (z.B. Next.js/React). Der Fokus wird an Ihr Setup angepasst, z.B. Checkout, Tracking, Performance und technische SEO-Signale.",
         },
       },
     ],
@@ -99,32 +102,54 @@ export default function WebsiteReviewPage() {
           <div className="mt-10 grid gap-10 lg:grid-cols-3">
             <div className="lg:col-span-2">
               <h2 className="text-2xl font-semibold tracking-tight text-slate-50">
-                Website Audit für bessere Rankings, mehr Anfragen und höhere Conversion
+                Technisches Website Audit für Websites, Onlineshops & Web-Apps in der
+                Schweiz
               </h2>
+
               <p className="mt-4 text-slate-300">
-                Eine Website kann optisch gut aussehen – und trotzdem schlecht ranken oder
-                Leads verlieren. Mit unserer Website Review identifizieren wir technische,
-                inhaltliche und UX-Probleme und liefern Ihnen einen klaren Plan, was Sie als
-                Nächstes umsetzen sollten.
+                Eine Seite kann modern aussehen – und trotzdem langsam laden, schlecht
+                crawlbar sein oder im Checkout/Lead-Funnel Nutzer verlieren. Mit unserem
+                technischen Website Review identifizieren wir Performance-Bremsen,
+                Tracking-Lücken und technische SEO-Hürden. Sie erhalten klare
+                Handlungsempfehlungen, was sich kurzfristig (Quick Wins) und strategisch
+                (grössere Hebel) lohnt.
               </p>
 
               <h3 className="mt-8 text-xl font-semibold text-slate-50">
-                Was wir in der Review prüfen
+                Was wir im technischen Review prüfen
               </h3>
+
               <ul className="mt-4 space-y-2 text-slate-300">
-                <li>• SEO Basics: Indexierung, Titles/Meta, interne Struktur, Content Signale</li>
-                <li>• Performance: Core Web Vitals, Ladezeiten, unnötige Skripte/Assets</li>
-                <li>• UX & Informationsarchitektur: Navigation, Klarheit, mobile Usability</li>
-                <li>• Conversion: CTA-Führung, Formulare, Vertrauen (Social Proof, Klarheit)</li>
-                <li>• Content: Nutzenkommunikation, Keyword-Intention, Struktur, Redundanzen</li>
+                <li>
+                  • Performance: Core Web Vitals, Ladezeiten, Bild-/Font-Optimierung,
+                  JavaScript-Budget, unnötige Skripte/Assets
+                </li>
+                <li>
+                  • Technisches SEO: Crawling &amp; Indexierung, Canonicals, Meta/Robots,
+                  interne Verlinkung, strukturierte Daten (Schema), Duplicate Content Signale
+                </li>
+                <li>
+                  • Shops &amp; Web-Apps: kritische User-Flows (Checkout, Formulare, Login),
+                  Routing/Rendering, Fehlerquellen, Caching, Redirect-Logik
+                </li>
+                <li>
+                  • Tracking &amp; Messbarkeit: GA4 Setup, Events, Consent/Cookie-Banner
+                  Basics, Datenqualität für Entscheidungen
+                </li>
+                <li>
+                  • Stabilität &amp; Sicherheit: HTTPS, Security Headers, 404/500, Redirect-Ketten,
+                  Third-Party-Risiken, technische Hygiene
+                </li>
               </ul>
 
               <h3 className="mt-8 text-xl font-semibold text-slate-50">
-                Ergebnis: priorisierter Massnahmenplan
+                Ergebnis: priorisierter Massnahmenplan mit konkreten Fixes
               </h3>
+
               <p className="mt-4 text-slate-300">
-                Sie erhalten konkrete Empfehlungen mit Prioritäten (Quick Wins vs. grössere
-                Hebel), damit Sie schnell Verbesserungen sehen – ohne Rätselraten.
+                Sie erhalten eine klare Liste mit konkreten Fixes, priorisiert nach Impact
+                und Aufwand. So wissen Sie exakt, welche Massnahmen die grösste Wirkung für
+                Performance, technische SEO-Signale und Conversion bringen – ohne Rätselraten.
               </p>
 
               <div className="mt-8 rounded-2xl border border-white/10 bg-slate-900/60 p-5">
@@ -132,8 +157,9 @@ export default function WebsiteReviewPage() {
                   Nächster Schritt
                 </h3>
                 <p className="mt-2 text-slate-300">
-                  Füllen Sie das Formular aus – wir melden uns mit Rückfragen oder einem
-                  Vorschlag für das Review-Setup.
+                  Füllen Sie das Formular aus und senden Sie uns die URL sowie Ihr Ziel
+                  (z.B. mehr Leads, bessere Rankings, stabilerer Checkout). Wir melden uns
+                  mit Rückfragen oder einem Vorschlag für das Audit-Setup.
                 </p>
                 <div className="mt-4 flex flex-wrap gap-3">
                   <Link
@@ -146,7 +172,7 @@ export default function WebsiteReviewPage() {
                     href="#website-review-form"
                     className="rounded-full bg-sky-500 px-4 py-2 text-sm font-medium text-white hover:bg-sky-400"
                   >
-                    Website Review starten
+                    Website Audit starten
                   </a>
                 </div>
               </div>
@@ -155,30 +181,37 @@ export default function WebsiteReviewPage() {
             {/* FAQ (SEO-friendly) */}
             <aside className="space-y-4">
               <h2 className="text-xl font-semibold text-slate-50">FAQ</h2>
+
               <details className="rounded-2xl border border-white/10 bg-slate-900/60 p-4">
                 <summary className="cursor-pointer text-slate-100">
-                  Brauche ich Zugriff auf Analytics?
+                  Brauche ich Zugriff auf Analytics oder Search Console?
                 </summary>
                 <p className="mt-2 text-sm text-slate-300">
-                  Nicht zwingend. Für Conversion/Behavior ist Zugriff hilfreich, aber wir
-                  können auch ohne Analytics eine fundierte Review machen.
+                  Nicht zwingend. Für Tracking- und Conversion-Fragen ist Zugriff hilfreich,
+                  aber wir können das technische Audit auch ohne Analytics durchführen. Falls
+                  nötig, fragen wir gezielt nach den passenden Zugängen.
                 </p>
               </details>
+
               <details className="rounded-2xl border border-white/10 bg-slate-900/60 p-4">
                 <summary className="cursor-pointer text-slate-100">
-                  Ist das nur für SEO?
+                  Ist das Audit eher technisch oder inhaltlich?
                 </summary>
                 <p className="mt-2 text-sm text-slate-300">
-                  Nein. SEO, Performance, UX und Conversion hängen zusammen – wir behandeln
-                  die Seite ganzheitlich.
+                  Der Fokus ist technisch: Performance, technisches SEO, Tracking, Stabilität
+                  und kritische User-Flows (z.B. Checkout/Formulare). Content/UX betrachten
+                  wir nur dort, wo es technische Auswirkungen auf Conversion oder Indexierung
+                  gibt.
                 </p>
               </details>
+
               <details className="rounded-2xl border border-white/10 bg-slate-900/60 p-4">
                 <summary className="cursor-pointer text-slate-100">
                   Bekommt man eine Liste mit konkreten Fixes?
                 </summary>
                 <p className="mt-2 text-sm text-slate-300">
-                  Ja – inklusive Prioritäten, Impact-Einschätzung und nächsten Schritten.
+                  Ja – inklusive Prioritäten (Impact/Aufwand), Quick Wins und Empfehlungen für
+                  die Umsetzung in Ihrem Setup (Website, Shop oder Web-App).
                 </p>
               </details>
             </aside>

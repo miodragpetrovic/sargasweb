@@ -80,10 +80,18 @@ export function MainNav() {
                         : "text-slate-300 hover:text-white"
                     }`}
                   >
+                    <span className="inline-flex items-center gap-2">
                     {link.label}
-                    {isActive && (
-                      <span className="absolute -bottom-1 left-0 right-0 mx-auto h-[2px] w-6 rounded-full bg-sky-400" />
+                    {link.href === "/website-review" && (
+                      <span className="rounded-full bg-red-500 px-2 py-[2px] text-[10px] font-semibold uppercase tracking-wide text-white">
+                        New
+                      </span>
                     )}
+                  </span>
+
+                  {isActive && (
+                    <span className="absolute -bottom-1 left-0 right-0 mx-auto h-[2px] w-6 rounded-full bg-sky-400" />
+                  )}
                   </Link>
                 </li>
               );
@@ -147,7 +155,14 @@ export function MainNav() {
                           : "text-slate-200 hover:bg-white/5"
                       }`}
                     >
-                      <span>{link.label}</span>
+                      <span className="inline-flex items-center gap-2">
+                      {link.label}
+                      {link.href === "/website-review" && (
+                        <span className="rounded-full bg-red-500 px-2 py-[2px] text-[10px] font-semibold uppercase tracking-wide text-white">
+                          New
+                        </span>
+                      )}
+                    </span>
                       {isActive && (
                         <span className="h-1.5 w-1.5 rounded-full bg-sky-400" />
                       )}

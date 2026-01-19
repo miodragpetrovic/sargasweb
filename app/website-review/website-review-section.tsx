@@ -123,7 +123,7 @@ export default function WebsiteReviewSection() {
           <div className="mt-4 flex flex-wrap gap-3 text-xs text-slate-300 sm:text-sm">
             <span className="inline-flex items-center gap-2 rounded-full bg-white/5 px-3 py-1">
               <CheckCircle2 className="h-4 w-4 text-emerald-400" />
-              Quick Wins + technischer Maßnahmenplan
+              Quick Wins + technischer Massnahmenplan
             </span>
             <span className="inline-flex items-center gap-2 rounded-full bg-white/5 px-3 py-1">
               <Target className="h-4 w-4 text-sky-400" />

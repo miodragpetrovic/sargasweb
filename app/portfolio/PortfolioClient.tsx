@@ -36,20 +36,6 @@ interface Project {
 
 const projects: Project[] = [
   {
-    id: 2,
-    title: "Maler One-Page Website",
-    type: "website",
-    industry: "Handwerk · Malerbetrieb",
-    summary:
-      "One-Page-Website umgesetzt mit Bootstrap, JavaScript und AOS-Animationen – responsives Layout, klare Sektionen (Leistungen, Galerie, Über uns, Kontakt) sowie Smooth-Scroll-Navigation.",
-    result:
-      "Moderner Online-Auftritt, bessere mobile Usability und ein direkterer Weg zur Kontaktaufnahme bzw. Offertanfrage.",
-    tags: ["Bootstrap", "JavaScript", "AOS", "One-Page Website"],
-    color: "from-sky-400/80 via-sky-600/60 to-slate-900/90",
-    image: "/img/maler-website.png",
-    url: "https://maler.sargasweb.ch/",
-  },
-  {
     id: 1,
     title: "Restaurant Website",
     type: "website",
@@ -63,6 +49,21 @@ const projects: Project[] = [
     image: "/img/restaurant-website.png",
     url: "https://restaurant.sargasweb.ch/",
   },
+  {
+    id: 2,
+    title: "Maler Website",
+    type: "website",
+    industry: "Handwerk · Malerbetrieb",
+    summary:
+      "One-Page-Website umgesetzt mit Bootstrap, JavaScript und AOS-Animationen – responsives Layout, klare Sektionen (Leistungen, Galerie, Über uns, Kontakt) sowie Smooth-Scroll-Navigation.",
+    result:
+      "Moderner Online-Auftritt, bessere mobile Usability und ein direkterer Weg zur Kontaktaufnahme bzw. Offertanfrage.",
+    tags: ["Bootstrap", "JavaScript", "AOS", "One-Page Website"],
+    color: "from-sky-400/80 via-sky-600/60 to-slate-900/90",
+    image: "/img/maler-website.png",
+    url: "https://Maler.sargasweb.ch/",
+  },
+  
   {
     id: 3,
     title: "Online-Medikamentenbestellung",

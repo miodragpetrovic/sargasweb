@@ -36,7 +36,35 @@ interface Project {
 
 const projects: Project[] = [
   {
+    id: 2,
+    title: "Maler One-Page Website",
+    type: "website",
+    industry: "Handwerk · Malerbetrieb",
+    summary:
+      "One-Page-Website umgesetzt mit Bootstrap, JavaScript und AOS-Animationen – responsives Layout, klare Sektionen (Leistungen, Galerie, Über uns, Kontakt) sowie Smooth-Scroll-Navigation.",
+    result:
+      "Moderner Online-Auftritt, bessere mobile Usability und ein direkterer Weg zur Kontaktaufnahme bzw. Offertanfrage.",
+    tags: ["Bootstrap", "JavaScript", "AOS", "One-Page Website"],
+    color: "from-sky-400/80 via-sky-600/60 to-slate-900/90",
+    image: "/img/maler-website.png",
+    url: "https://maler.sargasweb.ch/",
+  },
+  {
     id: 1,
+    title: "Restaurant Website",
+    type: "website",
+    industry: "Gastronomie · Restaurant",
+    summary:
+      "Multi-Page-Website umgesetzt mit Bootstrap, JavaScript und AOS-Animationen – inkl. Dark/Light-Modus, responsivem Layout und klarer Seitenstruktur (Startseite, Menü, Galerie, Über uns, Kontakt/Reservation).",
+    result:
+      "Professioneller Auftritt mit besserer Nutzerführung, schnellerem Zugriff auf Menü & Informationen sowie angenehmer Darstellung dank Dark/Light-Modus.",
+    tags: ["Bootstrap", "JavaScript", "AOS", "Dark/Light Mode", "Multi-Page Website"],
+    color: "from-amber-400/80 via-orange-500/60 to-stone-900/90",
+    image: "/img/restaurant-website.png",
+    url: "https://restaurant.sargasweb.ch/",
+  },
+  {
+    id: 3,
     title: "Online-Medikamentenbestellung",
     type: "webapp",
     industry: "Gesundheit · Apotheke",
@@ -50,7 +78,7 @@ const projects: Project[] = [
     url: "https://medikamenten.facodaqo.cyon.site/",
   },
   {
-    id: 2,
+    id: 4,
     title: "EventExclusive – Webanwendung für Event-Locations",
     type: "webapp",
     industry: "Events · Sargas IT GmbH",
@@ -64,7 +92,7 @@ const projects: Project[] = [
     url: "https://eventexclusive-com.vercel.app/",
   },
   {
-    id: 3,
+    id: 5,
     title: "Fashion Online-Shop",
     type: "shop",
     industry: "E-Commerce · Fashion · ANNAVI",
@@ -77,7 +105,7 @@ const projects: Project[] = [
     url: "https://annavi.fr/",
   },
   {
-  id: 4,
+  id: 6,
   title: "Autoportal & Fahrzeugbörse",
   type: "website",
   industry: "Automobil · Fahrzeughandel",
@@ -92,7 +120,7 @@ const projects: Project[] = [
   },
 
   {
-  id: 5,
+  id: 7,
   title: "Ivan Travel – OnePage Website",
   type: "website",
   industry: "Reise · Tourismus",
@@ -107,7 +135,7 @@ const projects: Project[] = [
 },
 
 {
-  id: 6,
+  id: 8,
   title: "Hausarztpraxis Au-Wädenswil – Praxiswebsite",
   type: "website",
   industry: "Gesundheit · Hausarztpraxis",
@@ -128,7 +156,7 @@ const projects: Project[] = [
 },
 
 {
-  id: 7,
+  id: 9,
   title: "Arztpraxis Dr. Lazić – Praxiswebsite",
   type: "website",
   industry: "Gesundheit · Arztpraxis",
@@ -149,7 +177,7 @@ const projects: Project[] = [
 },
 
 {
-  id: 8,
+  id: 10,
   title: "Vito Automobile GmbH – Autoankauf & Fahrzeugverkauf",
   type: "website",
   industry: "Automobil · Autoankauf & Verkauf",
@@ -170,7 +198,7 @@ const projects: Project[] = [
 },
 
 {
-  id: 9,
+  id: 11,
   title: "Fahrschule Stambo – Website für Fahrschule",
   type: "website",
   industry: "Ausbildung · Fahrschule",

@@ -60,8 +60,8 @@ const projects: Project[] = [
       "Moderner Online-Auftritt, bessere mobile Usability und ein direkterer Weg zur Kontaktaufnahme bzw. Offertanfrage.",
     tags: ["Bootstrap", "JavaScript", "AOS", "One-Page Website"],
     color: "from-sky-400/80 via-sky-600/60 to-slate-900/90",
-    image: "/img/maler-website.png",
-    url: "https://Maler.sargasweb.ch/",
+    image: "/img/Maler-website.png",
+    url: "https://maler.sargasweb.ch/",
   },
   
   {

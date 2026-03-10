@@ -30,25 +30,31 @@ interface Project {
   result: string;
   tags: string[];
   color: string;
-  image?: string; // slika iz /public
-  url?: string;   // opcioni link
+  image?: string;
+  url?: string;
 }
 
 const projects: Project[] = [
   {
-  id: 1,
-  title: "Swiss Travel Pro",
-  type: "webapp",
-  industry: "Reisen · Tourismus",
-  summary:
-    "Moderne Reise-Webanwendung entwickelt für die übersichtliche Präsentation von Reisezielen, Angeboten und Buchungsoptionen – mit responsivem Design, klarer Nutzerführung und schneller Navigation für ein angenehmes Planungserlebnis.",
-  result:
-    "Professioneller digitaler Auftritt mit besserer Darstellung von Reiseangeboten, einfacherem Zugang zu wichtigen Informationen und einer benutzerfreundlichen Erfahrung auf Desktop und Mobilgeräten.",
-  tags: ["Web Application", "Responsive Design", "Travel Booking", "User Experience", "Modern UI"],
-  color: "from-sky-400/80 via-cyan-500/60 to-blue-900/90",
-  image: "/img/Swiss-travel-pro.png",
-  url: "https://swiss-travel-pro-2.vercel.app/de",
-},
+    id: 1,
+    title: "Swiss Travel Pro",
+    type: "webapp",
+    industry: "Reisen · Tourismus",
+    summary:
+      "Moderne Reise-Webanwendung entwickelt für die übersichtliche Präsentation von Reisezielen, Angeboten und Buchungsoptionen – mit responsivem Design, klarer Nutzerführung und schneller Navigation für ein angenehmes Planungserlebnis.",
+    result:
+      "Professioneller digitaler Auftritt mit besserer Darstellung von Reiseangeboten, einfacherem Zugang zu wichtigen Informationen und einer benutzerfreundlichen Erfahrung auf Desktop und Mobilgeräten.",
+    tags: [
+      "Web Application",
+      "Responsive Design",
+      "Travel Booking",
+      "User Experience",
+      "Modern UI",
+    ],
+    color: "from-sky-400/80 via-cyan-500/60 to-blue-900/90",
+    image: "/img/Swiss-travel-pro.png",
+    url: "https://swiss-travel-pro-2.vercel.app/de",
+  },
   {
     id: 2,
     title: "Restaurant Website",
@@ -58,7 +64,13 @@ const projects: Project[] = [
       "Multi-Page-Website umgesetzt mit Bootstrap, JavaScript und AOS-Animationen – inkl. Dark/Light-Modus, responsivem Layout und klarer Seitenstruktur (Startseite, Menü, Galerie, Über uns, Kontakt/Reservation).",
     result:
       "Professioneller Auftritt mit besserer Nutzerführung, schnellerem Zugriff auf Menü & Informationen sowie angenehmer Darstellung dank Dark/Light-Modus.",
-    tags: ["Bootstrap", "JavaScript", "AOS", "Dark/Light Mode", "Multi-Page Website"],
+    tags: [
+      "Bootstrap",
+      "JavaScript",
+      "AOS",
+      "Dark/Light Mode",
+      "Multi-Page Website",
+    ],
     color: "from-amber-400/80 via-orange-500/60 to-stone-900/90",
     image: "/img/restaurant-website.png",
     url: "https://restaurant.sargasweb.ch/",
@@ -77,7 +89,6 @@ const projects: Project[] = [
     image: "/img/Maler-website.png",
     url: "https://maler.sargasweb.ch/",
   },
-  
   {
     id: 4,
     title: "Online-Medikamentenbestellung",
@@ -103,7 +114,7 @@ const projects: Project[] = [
       "Zentralisierte Verwaltung von Event-Locations & effizientere Bearbeitung von Anfragen.",
     tags: ["Web-App", "Event-Plattform", "next.js", "Tailwind CSS", "MongoDB"],
     color: "from-violet-500/60 via-slate-700 to-slate-900",
-    image: "/img/event-exclusive.png", // screenshot EventExclusive
+    image: "/img/event-exclusive.png",
     url: "https://eventexclusive-com.vercel.app/",
   },
   {
@@ -120,120 +131,113 @@ const projects: Project[] = [
     url: "https://annavi.fr/",
   },
   {
-  id: 7,
-  title: "Autoportal & Fahrzeugbörse",
-  type: "website",
-  industry: "Automobil · Fahrzeughandel",
-  summary:
-    "Webportal für den Verkauf von Fahrzeugen, umgesetzt mit WordPress und PHP – inklusive Fahrzeugübersicht, Filtermöglichkeiten und Kontaktformularen.",
-  result:
-    "Mehr qualifizierte Anfragen für Fahrzeuge & einfachere Verwaltung der Inserate.",
-  tags: ["WordPress & PHP", "Auto-Portal", "Fahrzeugbörse"],
-  color: "from-sky-400/60 via-slate-700 to-slate-900",
-  image: "/img/autogrid.png",
-  url: "https://www.autogrid.ch/",
+    id: 7,
+    title: "Autoportal & Fahrzeugbörse",
+    type: "website",
+    industry: "Automobil · Fahrzeughandel",
+    summary:
+      "Webportal für den Verkauf von Fahrzeugen, umgesetzt mit WordPress und PHP – inklusive Fahrzeugübersicht, Filtermöglichkeiten und Kontaktformularen.",
+    result:
+      "Mehr qualifizierte Anfragen für Fahrzeuge & einfachere Verwaltung der Inserate.",
+    tags: ["WordPress & PHP", "Auto-Portal", "Fahrzeugbörse"],
+    color: "from-sky-400/60 via-slate-700 to-slate-900",
+    image: "/img/autogrid.png",
+    url: "https://www.autogrid.ch/",
   },
-
   {
-  id: 8,
-  title: "Ivan Travel – OnePage Website",
-  type: "website",
-  industry: "Reise · Tourismus",
-  summary:
-    "Mehrsprachige OnePage-Website (2 Sprachen) für ein Reiseunternehmen, umgesetzt mit Custom PHP, Bootstrap und JavaScript – inklusive Angebotssektionen, Bildergalerie und Kontaktbereich.",
-  result:
-    "Moderner Auftritt, bessere Darstellung der Reiseangebote und mehr qualifizierte Anfragen über die Website.",
-  tags: ["Custom PHP", "Bootstrap", "JavaScript", "OnePage", "Mehrsprachig"],
-  color: "from-fuchsia-500/60 via-slate-700 to-slate-900",
-  image: "/img/ivan-travel-gmbh.png", 
-  url: "https://ivantravel.ch/",
-},
-
-{
-  id: 9,
-  title: "Hausarztpraxis Au-Wädenswil – Praxiswebsite",
-  type: "website",
-  industry: "Gesundheit · Hausarztpraxis",
-  summary:
-    "Moderne Praxis-Website für eine Hausarztpraxis in Au-Wädenswil, umgesetzt als individuelle OnePage-Lösung mit PHP, Bootstrap, JavaScript und AOS-Animationen. Übersichtliche Darstellung von Leistungen, Team, Öffnungszeiten und Kontakt.",
-  result:
-    "Klarer, vertrauenswürdiger Online-Auftritt, bessere Auffindbarkeit der Praxisinformationen und mehr Online-Anfragen.",
-  tags: [
-    "Custom PHP",
-    "Bootstrap",
-    "JavaScript",
-    "AOS Animations",
-    "Praxiswebsite",
-  ],
-  color: "from-teal-400/60 via-slate-700 to-slate-900",
-  image: "/img/hausarztpraxis-au-waedenswil.png",
-  url: "https://hausarztpraxis-au-waedenswil.ch/",
-},
-
-{
-  id: 10,
-  title: "Arztpraxis Dr. Lazić – Praxiswebsite",
-  type: "website",
-  industry: "Gesundheit · Arztpraxis",
-  summary:
-    "Praxis-Website für die Arztpraxis Dr. Lazić, umgesetzt mit WordPress, PHP und JavaScript. Übersichtlich strukturierte Darstellung von Leistungen, Sprechzeiten, Standort und Kontaktmöglichkeiten – optimiert für mobile Endgeräte.",
-  result:
-    "Moderner und vertrauenswürdiger Online-Auftritt mit klarer Informationsstruktur und vereinfachter Kontaktaufnahme für Patient:innen.",
-  tags: [
-    "WordPress",
-    "PHP",
-    "JavaScript",
-    "Praxiswebsite",
-    "Responsive Design",
-  ],
-  color: "from-sky-500/60 via-slate-700 to-slate-900",
-  image: "/img/arztpraxis.png",
-  url: "https://praxisdrlazic.ch/",
-},
-
-{
-  id: 11,
-  title: "Vito Automobile GmbH – Autoankauf & Fahrzeugverkauf",
-  type: "website",
-  industry: "Automobil · Autoankauf & Verkauf",
-  summary:
-    "Unternehmens-Website für Vito Automobile GmbH, umgesetzt mit WordPress, PHP und JavaScript. Inklusive individuell entwickeltem Formular für Autoankauf, Fahrzeugübersichten und Kontaktmöglichkeiten.",
-  result:
-    "Mehr qualifizierte Anfragen für den Autoankauf und eine professionelle Online-Präsenz für den Fahrzeugverkauf.",
-  tags: [
-    "WordPress",
-    "PHP",
-    "JavaScript",
-    "Autoankauf Formular",
-    "Fahrzeughandel",
-  ],
-  color: "from-amber-400/60 via-slate-700 to-slate-900",
-  image: "/img/vito-automobile.png",
-  url: "https://vito-automobile.ch/",
-},
-
-{
-  id: 12,
-  title: "Fahrschule Stambo – Website für Fahrschule",
-  type: "website",
-  industry: "Ausbildung · Fahrschule",
-  summary:
-    "Moderne Website für die Fahrschule Stambo, umgesetzt mit WordPress, PHP und JavaScript. Übersichtliche Darstellung von Führerscheinkategorien, Preisen, Standorten und Kontaktmöglichkeiten – inklusive Formular für Kurs- und Fahrstundenanfragen.",
-  result:
-    "Professioneller Online-Auftritt, mehr Online-Anfragen für Fahrstunden und bessere Übersicht für Fahrschüler:innen.",
-  tags: [
-    "WordPress",
-    "PHP",
-    "JavaScript",
-    "Fahrschule Website",
-    "Online-Anfragen",
-  ],
-  color: "from-indigo-500/60 via-slate-700 to-slate-900",
-  image: "/img/fahrschule-stambo.png",
-  url: "https://www.fahrschulestambo.ch/",
-},
-
-
+    id: 8,
+    title: "Ivan Travel – OnePage Website",
+    type: "website",
+    industry: "Reise · Tourismus",
+    summary:
+      "Mehrsprachige OnePage-Website (2 Sprachen) für ein Reiseunternehmen, umgesetzt mit Custom PHP, Bootstrap und JavaScript – inklusive Angebotssektionen, Bildergalerie und Kontaktbereich.",
+    result:
+      "Moderner Auftritt, bessere Darstellung der Reiseangebote und mehr qualifizierte Anfragen über die Website.",
+    tags: ["Custom PHP", "Bootstrap", "JavaScript", "OnePage", "Mehrsprachig"],
+    color: "from-fuchsia-500/60 via-slate-700 to-slate-900",
+    image: "/img/ivan-travel-gmbh.png",
+    url: "https://ivantravel.ch/",
+  },
+  {
+    id: 9,
+    title: "Hausarztpraxis Au-Wädenswil – Praxiswebsite",
+    type: "website",
+    industry: "Gesundheit · Hausarztpraxis",
+    summary:
+      "Moderne Praxis-Website für eine Hausarztpraxis in Au-Wädenswil, umgesetzt als individuelle OnePage-Lösung mit PHP, Bootstrap, JavaScript und AOS-Animationen. Übersichtliche Darstellung von Leistungen, Team, Öffnungszeiten und Kontakt.",
+    result:
+      "Klarer, vertrauenswürdiger Online-Auftritt, bessere Auffindbarkeit der Praxisinformationen und mehr Online-Anfragen.",
+    tags: [
+      "Custom PHP",
+      "Bootstrap",
+      "JavaScript",
+      "AOS Animations",
+      "Praxiswebsite",
+    ],
+    color: "from-teal-400/60 via-slate-700 to-slate-900",
+    image: "/img/hausarztpraxis-au-waedenswil.png",
+    url: "https://hausarztpraxis-au-waedenswil.ch/",
+  },
+  {
+    id: 10,
+    title: "Arztpraxis Dr. Lazić – Praxiswebsite",
+    type: "website",
+    industry: "Gesundheit · Arztpraxis",
+    summary:
+      "Praxis-Website für die Arztpraxis Dr. Lazić, umgesetzt mit WordPress, PHP und JavaScript. Übersichtlich strukturierte Darstellung von Leistungen, Sprechzeiten, Standort und Kontaktmöglichkeiten – optimiert für mobile Endgeräte.",
+    result:
+      "Moderner und vertrauenswürdiger Online-Auftritt mit klarer Informationsstruktur und vereinfachter Kontaktaufnahme für Patient:innen.",
+    tags: [
+      "WordPress",
+      "PHP",
+      "JavaScript",
+      "Praxiswebsite",
+      "Responsive Design",
+    ],
+    color: "from-sky-500/60 via-slate-700 to-slate-900",
+    image: "/img/arztpraxis.png",
+    url: "https://praxisdrlazic.ch/",
+  },
+  {
+    id: 11,
+    title: "Vito Automobile GmbH – Autoankauf & Fahrzeugverkauf",
+    type: "website",
+    industry: "Automobil · Autoankauf & Verkauf",
+    summary:
+      "Unternehmens-Website für Vito Automobile GmbH, umgesetzt mit WordPress, PHP und JavaScript. Inklusive individuell entwickeltem Formular für Autoankauf, Fahrzeugübersichten und Kontaktmöglichkeiten.",
+    result:
+      "Mehr qualifizierte Anfragen für den Autoankauf und eine professionelle Online-Präsenz für den Fahrzeugverkauf.",
+    tags: [
+      "WordPress",
+      "PHP",
+      "JavaScript",
+      "Autoankauf Formular",
+      "Fahrzeughandel",
+    ],
+    color: "from-amber-400/60 via-slate-700 to-slate-900",
+    image: "/img/vito-automobile.png",
+    url: "https://vito-automobile.ch/",
+  },
+  {
+    id: 12,
+    title: "Fahrschule Stambo – Website für Fahrschule",
+    type: "website",
+    industry: "Ausbildung · Fahrschule",
+    summary:
+      "Moderne Website für die Fahrschule Stambo, umgesetzt mit WordPress, PHP und JavaScript. Übersichtliche Darstellung von Führerscheinkategorien, Preisen, Standorten und Kontaktmöglichkeiten – inklusive Formular für Kurs- und Fahrstundenanfragen.",
+    result:
+      "Professioneller Online-Auftritt, mehr Online-Anfragen für Fahrstunden und bessere Übersicht für Fahrschüler:innen.",
+    tags: [
+      "WordPress",
+      "PHP",
+      "JavaScript",
+      "Fahrschule Website",
+      "Online-Anfragen",
+    ],
+    color: "from-indigo-500/60 via-slate-700 to-slate-900",
+    image: "/img/fahrschule-stambo.png",
+    url: "https://www.fahrschulestambo.ch/",
+  },
 ];
 
 const filterOptions: { value: ProjectType; label: string }[] = [
@@ -264,7 +268,6 @@ export function PortfolioClient() {
 
   useEffect(() => {
     const ctx = gsap.context(() => {
-      // HERO animacija
       const tl = gsap.timeline({ defaults: { ease: "power3.out" } });
 
       tl.from(heroBadgeRef.current, {
@@ -291,7 +294,6 @@ export function PortfolioClient() {
           "-=0.3"
         );
 
-      // Scroll animacije za sekcije
       const sections = [filterSectionRef, highlightRef, ctaRef];
 
       sections.forEach((ref) => {
@@ -314,7 +316,7 @@ export function PortfolioClient() {
   }, []);
 
   return (
-    <div ref={pageRef} className="bg-slate-950 text-slate-50 pt-5">
+    <div ref={pageRef} className="bg-slate-950 pt-5 text-slate-50">
       {/* HERO */}
       <section
         ref={heroRef}
@@ -338,8 +340,8 @@ export function PortfolioClient() {
             ref={heroTitleRef}
             className="mt-4 max-w-3xl text-3xl font-semibold leading-tight tracking-tight text-slate-50 sm:text-4xl lg:text-5xl"
           >
-            Portfolio – Webseiten, Webanwendungen &amp; Online-Shops,
-            die für unsere Kund:innen Ergebnisse bringen.
+            Portfolio – Webseiten, Webanwendungen &amp; Online-Shops, die für
+            unsere Kund:innen Ergebnisse bringen.
           </h1>
 
           <p
@@ -403,75 +405,108 @@ export function PortfolioClient() {
                   )}
                   {opt.value === "webapp" && <Code2 className="h-4 w-4" />}
                   {opt.value === "shop" && <ShoppingBag className="h-4 w-4" />}
-                  {opt.value === "all" && <LayoutPanelLeft className="h-4 w-4" />}
+                  {opt.value === "all" && (
+                    <LayoutPanelLeft className="h-4 w-4" />
+                  )}
                   <span>{opt.label}</span>
                 </button>
               ))}
             </div>
           </div>
 
-          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+          <div className="grid gap-7 md:grid-cols-2 xl:grid-cols-3">
             {filteredProjects.map((project) => (
               <article
                 key={project.id}
-                className="flex flex-col rounded-2xl border border-white/10 bg-slate-900 p-4 shadow-md shadow-black/30"
+                className="group relative flex h-full flex-col overflow-hidden rounded-3xl border border-white/10 bg-white/[0.03] shadow-[0_12px_35px_rgba(0,0,0,0.35)] backdrop-blur-sm transition duration-300 hover:-translate-y-1.5 hover:border-sky-400/30 hover:shadow-[0_18px_55px_rgba(14,165,233,0.12)]"
               >
-                {/* Slika ili gradient */}
-                <div className="relative h-28 w-full overflow-hidden rounded-xl bg-slate-900">
+                <div className="pointer-events-none absolute inset-0 rounded-3xl ring-1 ring-inset ring-white/5" />
+
+                {/* Slika / header */}
+                <div className="relative h-56 w-full overflow-hidden sm:h-64">
                   {project.image ? (
-                    <Image
-                      src={project.image}
-                      alt={project.title}
-                      fill
-                      className="object-cover"
-                      sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw"
-                    />
+                    <>
+                      <Image
+                        src={project.image}
+                        alt={project.title}
+                        fill
+                        className="object-cover transition duration-500 group-hover:scale-[1.04]"
+                        sizes="(min-width: 1280px) 33vw, (min-width: 768px) 50vw, 100vw"
+                      />
+                      <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/35 to-transparent" />
+                    </>
                   ) : (
-                    <div
-                      className={`h-full w-full bg-gradient-to-br ${project.color}`}
-                    />
+                    <>
+                      <div
+                        className={`h-full w-full bg-gradient-to-br ${project.color}`}
+                      />
+                      <div className="absolute inset-0 bg-gradient-to-t from-slate-950/90 to-transparent" />
+                    </>
                   )}
+
+                  <div className="absolute left-4 top-4">
+                    <span className="inline-flex items-center rounded-full border border-white/15 bg-slate-950/70 px-3 py-1 text-[11px] font-medium text-slate-100 backdrop-blur-md">
+                      {project.industry}
+                    </span>
+                  </div>
                 </div>
 
-                <div className="mt-4 flex-1">
-                  <p className="text-xs font-semibold uppercase tracking-wide text-sky-400">
-                    {project.industry}
-                  </p>
-
-                  <h3 className="mt-1 text-sm font-semibold text-slate-50 sm:text-base">
+                {/* Content */}
+                <div className="flex flex-1 flex-col p-5">
+                  <h3 className="text-lg font-semibold leading-snug text-slate-50 transition group-hover:text-sky-300">
                     {project.url ? (
                       <a
                         href={project.url}
                         target="_blank"
                         rel="noreferrer"
-                        className="inline-flex items-center gap-1 hover:text-sky-300"
+                        className="inline-flex items-start gap-2"
                       >
-                        {project.title}
-                        <ArrowRight className="h-3.5 w-3.5" />
+                        <span>{project.title}</span>
+                        <ArrowRight className="mt-1 h-4 w-4 shrink-0" />
                       </a>
                     ) : (
                       project.title
                     )}
                   </h3>
 
-                  <p className="mt-2 text-xs text-slate-300 sm:text-sm">
+                  <p className="mt-3 text-sm leading-6 text-slate-300">
                     {project.summary}
                   </p>
 
-                  <p className="mt-3 flex items-center gap-2 text-xs font-medium text-emerald-300">
-                    <TrendingUp className="h-4 w-4" />
-                    {project.result}
-                  </p>
+                  <div className="mt-4 rounded-2xl border border-emerald-400/10 bg-emerald-400/5 p-3">
+                    <p className="flex items-start gap-2 text-sm font-medium text-emerald-300">
+                      <TrendingUp className="mt-0.5 h-4 w-4 shrink-0" />
+                      <span>{project.result}</span>
+                    </p>
+                  </div>
 
-                  <div className="mt-3 flex flex-wrap gap-2 text-[11px] text-slate-300">
+                  <div className="mt-4 flex flex-wrap gap-2">
                     {project.tags.map((tag) => (
                       <span
-                        key={tag}
-                        className="rounded-full bg-white/5 px-2 py-0.5"
+                        key={`${project.id}-${tag}`}
+                        className="rounded-full border border-white/10 bg-white/5 px-2.5 py-1 text-[11px] text-slate-200"
                       >
                         {tag}
                       </span>
                     ))}
+                  </div>
+
+                  <div className="mt-5 pt-1">
+                    {project.url ? (
+                      <a
+                        href={project.url}
+                        target="_blank"
+                        rel="noreferrer"
+                        className="inline-flex items-center gap-2 rounded-full border border-sky-400/25 bg-sky-500/10 px-4 py-2 text-sm font-medium text-sky-200 transition hover:border-sky-400/50 hover:bg-sky-500/15 hover:text-white"
+                      >
+                        Projekt ansehen
+                        <ArrowRight className="h-4 w-4" />
+                      </a>
+                    ) : (
+                      <span className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-4 py-2 text-sm text-slate-300">
+                        Projekt im Portfolio
+                      </span>
+                    )}
                   </div>
                 </div>
               </article>
@@ -521,8 +556,8 @@ export function PortfolioClient() {
                   </p>
                   <p className="mt-2 text-sm text-slate-300">
                     Wir verbinden UX-Design, moderne Frontend-Entwicklung und
-                    stabile Backends – damit Webprojekte nicht nur gut
-                    aussehen, sondern auch performen.
+                    stabile Backends – damit Webprojekte nicht nur gut aussehen,
+                    sondern auch performen.
                   </p>
                 </div>
 
@@ -540,7 +575,6 @@ export function PortfolioClient() {
               </div>
             </div>
 
-            {/* Mini Case Study */}
             <aside className="rounded-3xl border border-white/10 bg-slate-900/70 p-5 shadow-xl shadow-black/40">
               <p className="text-xs font-semibold uppercase tracking-wide text-sky-400">
                 Beispiel aus dem Portfolio
@@ -550,8 +584,8 @@ export function PortfolioClient() {
               </h3>
               <p className="mt-2 text-sm text-slate-300">
                 Ein Industrieunternehmen wollte weg von einer veralteten Website
-                hin zu einem klaren, modernen Auftritt mit Fokus auf qualifizierte
-                Produktanfragen.
+                hin zu einem klaren, modernen Auftritt mit Fokus auf
+                qualifizierte Produktanfragen.
               </p>
               <ul className="mt-3 space-y-1.5 text-sm text-slate-300">
                 <li>• Neukonzeption von Struktur &amp; Content</li>
@@ -592,9 +626,7 @@ export function PortfolioClient() {
 
             <div className="mt-6 text-xs text-slate-400 sm:text-sm">
               <p>Oder direkt per E-Mail:</p>
-              <p className="mt-1 font-mono text-slate-200">
-                info@sargasweb.ch
-              </p>
+              <p className="mt-1 font-mono text-slate-200">info@sargasweb.ch</p>
             </div>
           </div>
         </div>

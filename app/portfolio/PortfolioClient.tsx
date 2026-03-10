@@ -36,7 +36,21 @@ interface Project {
 
 const projects: Project[] = [
   {
-    id: 1,
+  id: 1,
+  title: "Swiss Travel Pro",
+  type: "webapp",
+  industry: "Reisen · Tourismus",
+  summary:
+    "Moderne Reise-Webanwendung entwickelt für die übersichtliche Präsentation von Reisezielen, Angeboten und Buchungsoptionen – mit responsivem Design, klarer Nutzerführung und schneller Navigation für ein angenehmes Planungserlebnis.",
+  result:
+    "Professioneller digitaler Auftritt mit besserer Darstellung von Reiseangeboten, einfacherem Zugang zu wichtigen Informationen und einer benutzerfreundlichen Erfahrung auf Desktop und Mobilgeräten.",
+  tags: ["Web Application", "Responsive Design", "Travel Booking", "User Experience", "Modern UI"],
+  color: "from-sky-400/80 via-cyan-500/60 to-blue-900/90",
+  image: "/img/Swiss-travel-pro.png",
+  url: "https://swiss-travel-pro-2.vercel.app/de",
+},
+  {
+    id: 2,
     title: "Restaurant Website",
     type: "website",
     industry: "Gastronomie · Restaurant",
@@ -50,7 +64,7 @@ const projects: Project[] = [
     url: "https://restaurant.sargasweb.ch/",
   },
   {
-    id: 2,
+    id: 3,
     title: "Maler Website",
     type: "website",
     industry: "Handwerk · Malerbetrieb",
@@ -65,7 +79,7 @@ const projects: Project[] = [
   },
   
   {
-    id: 3,
+    id: 4,
     title: "Online-Medikamentenbestellung",
     type: "webapp",
     industry: "Gesundheit · Apotheke",
@@ -79,7 +93,7 @@ const projects: Project[] = [
     url: "https://medikamenten.facodaqo.cyon.site/",
   },
   {
-    id: 4,
+    id: 5,
     title: "EventExclusive – Webanwendung für Event-Locations",
     type: "webapp",
     industry: "Events · Sargas IT GmbH",
@@ -93,7 +107,7 @@ const projects: Project[] = [
     url: "https://eventexclusive-com.vercel.app/",
   },
   {
-    id: 5,
+    id: 6,
     title: "Fashion Online-Shop",
     type: "shop",
     industry: "E-Commerce · Fashion · ANNAVI",
@@ -106,7 +120,7 @@ const projects: Project[] = [
     url: "https://annavi.fr/",
   },
   {
-  id: 6,
+  id: 7,
   title: "Autoportal & Fahrzeugbörse",
   type: "website",
   industry: "Automobil · Fahrzeughandel",
@@ -121,7 +135,7 @@ const projects: Project[] = [
   },
 
   {
-  id: 7,
+  id: 8,
   title: "Ivan Travel – OnePage Website",
   type: "website",
   industry: "Reise · Tourismus",
@@ -136,7 +150,7 @@ const projects: Project[] = [
 },
 
 {
-  id: 8,
+  id: 9,
   title: "Hausarztpraxis Au-Wädenswil – Praxiswebsite",
   type: "website",
   industry: "Gesundheit · Hausarztpraxis",
@@ -157,7 +171,7 @@ const projects: Project[] = [
 },
 
 {
-  id: 9,
+  id: 10,
   title: "Arztpraxis Dr. Lazić – Praxiswebsite",
   type: "website",
   industry: "Gesundheit · Arztpraxis",
@@ -178,7 +192,7 @@ const projects: Project[] = [
 },
 
 {
-  id: 10,
+  id: 11,
   title: "Vito Automobile GmbH – Autoankauf & Fahrzeugverkauf",
   type: "website",
   industry: "Automobil · Autoankauf & Verkauf",
@@ -199,7 +213,7 @@ const projects: Project[] = [
 },
 
 {
-  id: 11,
+  id: 12,
   title: "Fahrschule Stambo – Website für Fahrschule",
   type: "website",
   industry: "Ausbildung · Fahrschule",
